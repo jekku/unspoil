@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Unspoil",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://www.netflix.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
